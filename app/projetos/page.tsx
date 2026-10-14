@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { SiteShell } from "../components/SiteShell";
 import { projectHighlights } from "../site-data";
+import { ProjectFolders } from "../components/ProjectFolders";
 
 export const metadata: Metadata = {
   title: "Projetos do Instituto Cuidar",
   description:
-    "Veja as frentes culturais e socioeducativas do Instituto Cuidar, com oficinas, eventos e formação artística.",
+    "Conheça os projetos do Instituto Cuidar, suas ações e os registros de atividades na comunidade.",
 };
 
 export default function ProjetosPage() {
@@ -23,7 +24,22 @@ export default function ProjetosPage() {
         </div>
       </section>
 
+      <section className="section" aria-label="Projetos existentes">
+        <div className="container">
+          <div className="section-heading">
+            <p className="eyebrow">Nossos projetos</p>
+            <h2>Conheça as ações de perto.</h2>
+            <p>Abra cada pasta para conhecer o projeto e ver os registros das ações.</p>
+          </div>
+          <ProjectFolders />
+        </div>
+      </section>
+
       <section className="section">
+        <div className="container section-heading">
+          <p className="eyebrow">Áreas de atuação</p>
+          <h2>Cultura e formação na comunidade.</h2>
+        </div>
         <div className="container project-grid">
           {projectHighlights.map((project) => (
             <article key={project.title} className="project-card project-card--large">

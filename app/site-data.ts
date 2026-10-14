@@ -70,7 +70,9 @@ export const pillars = [
 ];
 
 export const contactInfo = {
-  email: "institutocuidar.org.ma@gmail.com",
+  email: "contato@institutocuidarma.com.br",
+  phone: "(98) 98735-9398",
+  phoneHref: "tel:+5598987359398",
   address:
     "Av. Rua das Alpercatas, nº 03, Calhau, Distrito 08, Setor 11, Quadra 025, Lote 0122, São Luís (MA), CEP 65071-630",
 };

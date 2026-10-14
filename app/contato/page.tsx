@@ -26,6 +26,11 @@ export default function ContatoPage() {
         <div className="container contact-grid">
           <article className="copy-card copy-card--accent">
             <h2>Fale com a equipe</h2>
+            <p>
+              <a className="contact-link" href={contactInfo.phoneHref}>
+                {contactInfo.phone}
+              </a>
+            </p>
             <a className="contact-link" href={`mailto:${contactInfo.email}`}>
               {contactInfo.email}
             </a>

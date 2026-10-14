@@ -54,7 +54,7 @@ for (const route of ["", "sobre", "projetos", "contato"]) {
   assert.ok(html.includes("brand__logo--dark"));
   assert.ok(html.includes("brand__logo--light"));
   assert.doesNotMatch(html, /<script[^>]+type="module"/);
-  for (const asset of html.matchAll(/(?:href|src)="(\/(?:_next\/[^"?#]+|[^/"?#]+\.(?:svg|png|js)))"/g)) {
+  for (const asset of html.matchAll(/(?:href|src)="(\/[^"?#]+\.(?:svg|png|jpe?g|webp|js|css|woff2))"/g)) {
     await readFile(new URL(asset[1].slice(1), output));
   }
   const directory = new URL(route ? `${route}/` : "./", output);

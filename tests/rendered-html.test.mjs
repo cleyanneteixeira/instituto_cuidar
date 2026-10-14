@@ -15,7 +15,8 @@ for (const [path, heading] of [["/", "Projetos culturais que acolhem"], ["/sobre
  assert.equal((html.match(/<main\b/g) ?? []).length, 1);
  assert.equal((html.match(/<h1\b/g) ?? []).length, 1);
  assert.match(html, /href="#conteudo"/);
- assert.ok(html.includes("mailto:institutocuidar.org.ma@gmail.com"));
+ assert.ok(html.includes("mailto:contato@institutocuidarma.com.br"));
+ assert.ok(html.includes("tel:+5598987359398"));
  for (const href of ["/", "/sobre", "/projetos", "/contato"]) assert.ok(html.includes('href="' + href + '"'));
  assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
  });

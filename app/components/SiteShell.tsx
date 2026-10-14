@@ -65,6 +65,11 @@ export function SiteShell({ children }: SiteShellProps) {
           </div>
           <div>
             <p className="site-footer__title">Contato</p>
+            <p>
+              <a className="site-footer__link" href={contactInfo.phoneHref}>
+                {contactInfo.phone}
+              </a>
+            </p>
             <a className="site-footer__link" href={`mailto:${contactInfo.email}`}>
               {contactInfo.email}
             </a>
