@@ -26,12 +26,12 @@ export async function generateMetadata(): Promise<Metadata> {
       template: "%s | Instituto Cuidar",
     },
     description:
-      "Site institucional do Instituto Cuidar com informacoes sobre historia, projetos e contato.",
+      "Site institucional do Instituto Cuidar com informações sobre história, projetos e contato.",
     metadataBase,
     openGraph: {
       title: "Instituto Cuidar",
       description:
-        "Cultura, integracao social, desenvolvimento e responsabilidade para transformar comunidades em Sao Luis - MA.",
+        "Cultura, integração social, desenvolvimento e responsabilidade para transformar comunidades em São Luís (MA).",
       type: "website",
       images: ["/og.png"],
     },

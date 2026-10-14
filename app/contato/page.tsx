@@ -5,7 +5,7 @@ import { contactInfo } from "../site-data";
 export const metadata: Metadata = {
   title: "Contato do Instituto Cuidar",
   description:
-    "Entre em contato com o Instituto Cuidar para parcerias, apoio institucional e informacoes sobre os projetos.",
+    "Entre em contato com o Instituto Cuidar para parcerias, apoio institucional e informações sobre os projetos.",
 };
 
 export default function ContatoPage() {
@@ -16,7 +16,7 @@ export default function ContatoPage() {
           <p className="eyebrow">Contato</p>
           <h1>Vamos construir novas oportunidades juntos.</h1>
           <p className="page-hero__lead">
-            O Instituto Cuidar esta aberto a parcerias, articulacoes locais,
+            O Instituto Cuidar está aberto a parcerias, articulações locais,
             convites para projetos e conversas sobre impacto cultural.
           </p>
         </div>
@@ -35,10 +35,10 @@ export default function ContatoPage() {
           <article className="copy-card">
             <h2>Como podemos apoiar</h2>
             <ul className="contact-list">
-              <li>Parcerias para eventos, oficinas e apresentacoes.</li>
-              <li>Apoio institucional a projetos de base comunitaria.</li>
-              <li>Conexoes com artistas, educadores e liderancas locais.</li>
-              <li>Informacoes sobre atendimento e participacao nas atividades.</li>
+              <li>Parcerias para eventos, oficinas e apresentações.</li>
+              <li>Apoio institucional a projetos de base comunitária.</li>
+              <li>Conexões com artistas, educadores e lideranças locais.</li>
+              <li>Informações sobre atendimento e participação nas atividades.</li>
             </ul>
           </article>
         </div>

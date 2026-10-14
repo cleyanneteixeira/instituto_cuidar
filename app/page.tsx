@@ -18,13 +18,13 @@ export default function Home() {
               Projetos culturais que acolhem, formam e transformam comunidades.
             </h1>
             <p className="hero__lead">
-              Em Sao Luis - MA, o Instituto Cuidar promove cultura, integracao
-              social e desenvolvimento local com acoes que colocam criancas,
-              jovens, adultos e idosos no centro da mudanca.
+              Em São Luís (MA), o Instituto Cuidar promove cultura, integração
+              social e desenvolvimento local com ações que colocam crianças,
+              jovens, adultos e idosos no centro da mudança.
             </p>
             <div className="hero__actions">
               <Link href="/projetos" className="button button--primary">
-                Conheca os projetos
+                Conheça os projetos
               </Link>
               <Link href="/contato" className="button button--ghost">
                 Fale com o instituto
@@ -43,8 +43,8 @@ export default function Home() {
               ))}
             </div>
             <p className="hero-card__note">
-              O portifolio da instituicao revela uma atuacao continua em
-              eventos, oficinas e experiencias artisticas com foco comunitario.
+              O portfólio da instituição revela uma atuação contínua em
+              eventos, oficinas e experiências artísticas com foco comunitário.
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function Home() {
         <div className="container">
           <div className="section-heading">
             <p className="eyebrow">Quem atendemos</p>
-            <h2>Uma rede de cuidado que alcanca diferentes fases da vida.</h2>
+            <h2>Uma rede de cuidado que alcança diferentes fases da vida.</h2>
           </div>
           <div className="audience-grid">
             {audiences.map((audience) => (
@@ -69,8 +69,8 @@ export default function Home() {
       <section className="section section--tinted">
         <div className="container">
           <div className="section-heading">
-            <p className="eyebrow">Pilares de atuacao</p>
-            <h2>Arte, pertencimento e oportunidades reais para o territorio.</h2>
+            <p className="eyebrow">Pilares de atuação</p>
+            <h2>Arte, pertencimento e oportunidades reais para o território.</h2>
           </div>
           <div className="pillar-grid">
             {pillars.map((pillar) => (
@@ -91,7 +91,7 @@ export default function Home() {
               <h2>Uma agenda cultural que forma talento e fortalece identidade.</h2>
             </div>
             <Link href="/projetos" className="text-link">
-              Ver pagina completa de projetos
+              Ver página completa de projetos
             </Link>
           </div>
           <div className="project-grid">
@@ -109,7 +109,7 @@ export default function Home() {
         <div className="container cta-band__inner">
           <div>
             <p className="eyebrow">Parcerias e apoio</p>
-            <h2>Quer apoiar novas historias de aprendizagem e cultura?</h2>
+            <h2>Quer apoiar novas histórias de aprendizagem e cultura?</h2>
           </div>
           <Link href="/contato" className="button button--primary">
             Entrar em contato

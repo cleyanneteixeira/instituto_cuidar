@@ -5,7 +5,7 @@ import { projectHighlights } from "../site-data";
 export const metadata: Metadata = {
   title: "Projetos do Instituto Cuidar",
   description:
-    "Veja as frentes culturais e socioeducativas do Instituto Cuidar, com oficinas, eventos e formacao artistica.",
+    "Veja as frentes culturais e socioeducativas do Instituto Cuidar, com oficinas, eventos e formação artística.",
 };
 
 export default function ProjetosPage() {
@@ -14,11 +14,11 @@ export default function ProjetosPage() {
       <section className="page-hero">
         <div className="container">
           <p className="eyebrow">Projetos</p>
-          <h1>Cada projeto e uma forma de crescer em comunidade.</h1>
+          <h1>Cada projeto é uma forma de crescer em comunidade.</h1>
           <p className="page-hero__lead">
-            O portifolio do Instituto Cuidar reune acoes que misturam tradicao,
-            aprendizagem e expressao artistica para fortalecer pessoas e
-            territorios.
+            O portfólio do Instituto Cuidar reúne ações que misturam tradição,
+            aprendizagem e expressão artística para fortalecer pessoas e
+            territórios.
           </p>
         </div>
       </section>
@@ -38,20 +38,20 @@ export default function ProjetosPage() {
       <section className="section section--tinted">
         <div className="container two-column">
           <article className="copy-card">
-            <h2>Tradicoes e cultura popular</h2>
+            <h2>Tradições e cultura popular</h2>
             <p>
-              As acoes do instituto celebram a forca cultural de Sao Luis com
-              experiencias ligadas a quadrilhas juninas, rodas de capoeira,
-              danca, musicalizacao e eventos com artistas parceiros da
+              As ações do instituto celebram a força cultural de São Luís com
+              experiências ligadas a quadrilhas juninas, rodas de capoeira,
+              dança, musicalização e eventos com artistas parceiros da
               comunidade.
             </p>
           </article>
 
           <article className="copy-card">
-            <h2>Formacao artistica e cidada</h2>
+            <h2>Formação artística e cidadã</h2>
             <p>
-              Alem da cena e do palco, o instituto promove palestras, aulas de
-              redacao e literatura e oficinas praticas que ampliam repertorio,
+              Além da cena e do palco, o instituto promove palestras, aulas de
+              redação e literatura e oficinas práticas que ampliam repertório,
               estimulam a autonomia e ajudam a transformar realidades.
             </p>
           </article>
